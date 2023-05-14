@@ -24,11 +24,13 @@ header {
 .nav {
     display: flex;
     gap: 60px;
+    font-family: 'Lustria', serif;
 }
 
 .logo {
     font-size: 45px;
     font-weight: 900;
+    font-family: 'Bungee Shade', cursive;
 }
 
 ul {
@@ -38,10 +40,13 @@ ul {
 }
 
 a {
-    text-decoration: none;
+    text-decoration:none;
     color:#bfc9ff;
     font-weight: bold;
     font-size: 22px;
+    border: 2px solid #bfc9ff;
+    border-radius: 15px;
+    padding: 8px 20px;
 }
 
 a:hover {
@@ -59,10 +64,9 @@ section {
 }
 
 img {
-    width:300px;
+    width:200px;
     height: auto;
     object-fit: none;
-    border: 2px dashed;
 }
 
 .header-content {
@@ -73,26 +77,43 @@ img {
 
 h1 {
     font-size: 35px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 45px;
+    line-height: 1.2;
 }
 
 section .text {
     margin: 16px 0;
-    font-size: 20px;
+    font-size: 22px;
     color: #bfc9ff;
     max-width: 500px;
+    font-family: 'Spectral', serif;
+    line-height: 1.4;
 }
 
 button {
-    padding: 5px 15px;
+    padding: 8px 15px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 22px;
+    font-family: 'VT323', monospace;
     color:navy;
     margin-top: 8px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+svg {
+    width: 40px;
+    padding-right: 16px;
 }
 
 .buttons {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .video-container {

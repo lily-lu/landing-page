@@ -230,3 +230,9 @@ input {
     padding: 10px;
 }
 
+footer {
+    padding: 30px;
+    background: #bfc9ff;
+    font-family: 'Lustria', serif;
+    text-align: center;
+}
